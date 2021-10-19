@@ -1,0 +1,26 @@
+{
+  "name": "task-7",
+  "version": "1.0.0",
+  "description": "Full stack web application for car lot using mongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "concurrently": "6.3.0",
+    "cookie-parser": "1.4.5",
+    "express": "4.17.1",
+    "mongoose": "6.0.9",
+    "morgan": "1.10.0",
+    "nodemon": "2.0.13",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Kaylan Palmer",
+  "license": "ISC"
+}
